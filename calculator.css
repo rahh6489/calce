@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.base{
+    height: 520px;
+    width: 360px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(160, 159, 159);
+    padding: 20px;
+    box-shadow: 0px 3px 12px rgba(113,115,119,0.5);
+}
+
+input{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0px 3px 12px rgba(113,115,119,0.8);
+    font-size: 25px;
+    text-align: right;
+    color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.base-l{
+    display: flex;
+    flex-direction:rows ;
+    height: 75px;
+    margin-bottom: 5px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    margin: 10px;
+    font-size: 20px;
+    border:none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(225,225,225,0.1);
+}
+input::placeholder{
+    color: azure;
+}
+
+.sp-op-button{
+    background-color:green;
+    color: azure;
+}
+
+.sp-button{
+    color: darkgreen;
+}
+
+.sp-ac-button{
+    color: red;
+}
+button:active{
+    background-color: gainsboro;
+}
